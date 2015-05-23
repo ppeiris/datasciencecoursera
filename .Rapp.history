@@ -1,0 +1,256 @@
+submit()
+getpwd
+getch()
+getcd()
+getwd()
+lapply
+x <- list(a = 1:5, b = rnorm())
+x <- list(a = 1:5, b = rnorm(5))
+x
+lapply(x, mean)
+x <- metrix(rnorm(200), 20, 10)
+x <- matrix(rnorm(200), 20, 10)
+x
+apply(x, 2, mean)
+apply
+apply(x, 2, mean)
+x
+apply(x, 2, mean)
+mean(x)
+mean(y)
+traceback()
+library(datasets)
+data(iris)
+?iris
+Sepal.Length
+?iris
+iris
+iris(head)
+iris(headding)
+iris(headding )
+iris(heading)
+head(iris)
+head(iris$Sepal.Length)
+iris$Sepal.Leng
+iris$Sepal.Length
+mean(iris$Sepal.Length)
+apply(iris[, 1:4], 2, mean)
+apply(iris, 1, mean)
+colMeans(iris)
+rowMeans(iris[, 1:4])
+iris
+head(iris)
+iris$Sepal.Length
+isri
+iris
+apply(iris, 2, mean)
+iris[, 1:4]
+iris
+iris[, 1:4]
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+mtcars
+?mtcars
+mtcars$cyk
+mtcars$cyl
+mtcars$cyl = 6
+mtcars[, mtcars$cyl = 6]
+mtcars[mtcars$cyl = 6]
+mtcars[mtcars$cyl]
+mtcars[mtcars$cyl > 6]
+mtcars[mtcars$cyl > 1]
+mtcars
+library(datasets)#
+data(mtcars)
+mtcars
+mtcars[mtcars$cyl = 6]
+mtcars
+tapply(mtcars$mpg, mtcars$cyl, mean)
+mtcars$mp
+mtcars$mpg
+mtcars$cyl
+tapply(mtcars$mpg, mtcars$cyl, mean)
+mtcars
+mtcars[,]
+mtcars[,mtcars$hp > 1]
+class(mtcars)
+x <- matrix(mtcars)
+x
+mtca
+mtcars
+x
+matrix(mtcars)
+data.matrix(mtcars)
+x <- data.matrix(mtcars)
+x
+class(x)
+x$mpg
+x[1,]
+x[, 2]
+x[,2]
+x[,3]
+x$hp
+x[x[,2 == 6]]
+x[x[,2 = 6]]
+x[x[,2] == 6]
+x
+x[x[,2] == 6, ]
+cyl6 <- x[x[,2] == 6, ]
+class(cyl6)
+cyl6
+cyl6[,1]
+cyl6[,4]
+mean(cyl6[,4])
+cyl6mean <- mean(cyl6[,4])
+cyl6mean
+cyl4 <- x[x[,2] == 4]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4[,4]
+cyl4hp <- cyl4[,4]
+cyl4hp
+mean(cyl4hp)
+mean(cyl4hp) - cyl6mean
+debug(ls)
+ls
+ls()
+d
+D
+q
+quit
+exit
+D
+ls
+ls()
+debug(ls)
+ls()
+n
+library(datasets)#
+data(iris)
+n
+library(datasets)#
+data(iris)
+iris
+class(iris)
+head(isir)
+head(iris)
+n
+nn
+n
+q
+quit
+exit
+quit(0)
+library(datasets)#
+data(iris)
+iris
+iris
+met <- data.matrix(iris)
+met
+met[x[,5] == 3]
+met[mat[, 5] == 3, ]
+met[met[, 5] == 3 ]
+met[met[, 5] == 3, ]
+v <- met[met[, 5] == 3, ]
+v
+v[,1]
+mean(v[,1])
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+mtcars
+tapply(mtcars$mpg, mtcars$cyl, mean)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+iris$Sepal.Length
+iris$Sepal.Length
+iris$Species
+tapply(iris$Sepal.Length, iris$Species, mean)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+mtcars
+tapply(mtcars$hp, mtcars$cyl, mean)
+hp <- tapply(mtcars$hp, mtcars$cyl, mean)
+class(hp)
+hp[0]
+hp[4]
+hp
+hp(1)
+hp[0]
+209.21429-82.63636
+source("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2/cachematrix.R")
+source("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2/cachematrix.R")
+chwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2/")
+chwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2/")
+chwd
+setwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2/")
+getwd()
+mat <- matrix(1:4, 10, 10)
+mat
+solve(mat)
+mat[3,3]
+solve(mat)
+mat <- matrix(1:4, 3, 3)
+mat <- matrix(1:3, 3, 3)
+mat
+solve(mat)
+mat <- matrix(rnorm, 3, 3)
+mat <- matrix(rand, 3, 3)
+mean()
+mean
+solve
+solve
+solve()
+?solve
+c=rbind(c(1, -1/4), c(-1/4, 1))
+c
+class(c)
+solve(c)
+matequal
+source(cachematrix.R)
+source(cachematrix.R)
+getwd()
+ls()
+source("cachematrix.R")
+c
+makeCacheMatrix(c)
+makeCacheMatrix.set(c)
+makeCacheMatrix.set()
+makeCacheMatrix.set(c)
+makeCacheMatrix(c)
+makeCacheMatrix()
+makeCacheMatrix(c)
+makeCacheMatrix$set(c)
+makeCacheMatrix.set(c)
+source("tmp.R")
+x<- makeVector()
+x
+samplevector<- c(3,5,2,0)
+x$set(samplevector)
+x
+x$get()
+cachemean(x)
+cachemean(x)
+source("cachematrix.R")
+source("cachematrix.R")
+matrix <- makeCacheMatrix()
+matrix
+samplematrix <- rbind(c(1, -1/4), c(-1/4, 1))
+samplematrix
+solve(samplematrix)
+matrix
+matrix$set(samplematrix)
+matrix$get()
+matrix$get()
+matrix$get()
+cacheSolve(matrix)
+cacheSolve(matrix)
+samplematrix <- rbind(c(1, -1/2), c(-1/2, 1))
+samplematrix
+solve(samplematrix)
+matrix$set(samplematrix)
+matrix$get()
+samplematrix
+cacheSolve(matrix)
+cacheSolve(matrix)
