@@ -1,0 +1,242 @@
+source("corr.R")
+cr <- corr("specdata", 150)
+head(cr)
+cr <- corr("specdata", 150)
+source("corr.R")
+cr <- corr("specdata", 150)
+head(cr)
+source("corr.R")
+cr <- corr("specdata", 150)
+head(cr)
+source("corr.R")
+head(cr)
+source("corr.R")
+cr <- corr("specdata", 150)
+head(cr)
+summary(cr)
+corVector <- vector(mode="numeric")
+corVector()
+corVector
+length(corVector)
+source("corr.R")
+cr <- corr("specdata", 150)
+summary(cr)
+cr <- corr("specdata", 400)
+head(cr)
+summary(cr)
+cr <- corr("specdata", 5000)
+summary(cr)
+length(cr)
+cr <- corr("specdata", 150)
+summary(cr)
+source("corr.R")
+cr <- corr("specdata", 150)
+summary(cr)
+cr <- corr("specdata", 150)
+source("corr.R")
+cr <- corr("specdata", 150)
+head(cr)
+cr <- corr("specdata")
+summary(cr)
+length(cr)
+submit()
+getpwd
+getch()
+getcd()
+getwd()
+lapply
+x <- list(a = 1:5, b = rnorm())
+x <- list(a = 1:5, b = rnorm(5))
+x
+lapply(x, mean)
+x <- metrix(rnorm(200), 20, 10)
+x <- matrix(rnorm(200), 20, 10)
+x
+apply(x, 2, mean)
+apply
+apply(x, 2, mean)
+x
+apply(x, 2, mean)
+mean(x)
+mean(y)
+traceback()
+library(datasets)
+data(iris)
+?iris
+Sepal.Length
+?iris
+iris
+iris(head)
+iris(headding)
+iris(headding )
+iris(heading)
+head(iris)
+head(iris$Sepal.Length)
+iris$Sepal.Leng
+iris$Sepal.Length
+mean(iris$Sepal.Length)
+apply(iris[, 1:4], 2, mean)
+apply(iris, 1, mean)
+colMeans(iris)
+rowMeans(iris[, 1:4])
+iris
+head(iris)
+iris$Sepal.Length
+isri
+iris
+apply(iris, 2, mean)
+iris[, 1:4]
+iris
+iris[, 1:4]
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+mtcars
+?mtcars
+mtcars$cyk
+mtcars$cyl
+mtcars$cyl = 6
+mtcars[, mtcars$cyl = 6]
+mtcars[mtcars$cyl = 6]
+mtcars[mtcars$cyl]
+mtcars[mtcars$cyl > 6]
+mtcars[mtcars$cyl > 1]
+mtcars
+library(datasets)#
+data(mtcars)
+mtcars
+mtcars[mtcars$cyl = 6]
+mtcars
+tapply(mtcars$mpg, mtcars$cyl, mean)
+mtcars$mp
+mtcars$mpg
+mtcars$cyl
+tapply(mtcars$mpg, mtcars$cyl, mean)
+mtcars
+mtcars[,]
+mtcars[,mtcars$hp > 1]
+class(mtcars)
+x <- matrix(mtcars)
+x
+mtca
+mtcars
+x
+matrix(mtcars)
+data.matrix(mtcars)
+x <- data.matrix(mtcars)
+x
+class(x)
+x$mpg
+x[1,]
+x[, 2]
+x[,2]
+x[,3]
+x$hp
+x[x[,2 == 6]]
+x[x[,2 = 6]]
+x[x[,2] == 6]
+x
+x[x[,2] == 6, ]
+cyl6 <- x[x[,2] == 6, ]
+class(cyl6)
+cyl6
+cyl6[,1]
+cyl6[,4]
+mean(cyl6[,4])
+cyl6mean <- mean(cyl6[,4])
+cyl6mean
+cyl4 <- x[x[,2] == 4]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4[,4]
+cyl4hp <- cyl4[,4]
+cyl4hp
+mean(cyl4hp)
+mean(cyl4hp) - cyl6mean
+debug(ls)
+ls
+ls()
+d
+D
+q
+quit
+exit
+D
+ls
+ls()
+debug(ls)
+ls()
+n
+library(datasets)#
+data(iris)
+n
+library(datasets)#
+data(iris)
+iris
+class(iris)
+head(isir)
+head(iris)
+n
+nn
+n
+q
+quit
+exit
+quit(0)
+install.packages("RMySQL")
+dbConnect()
+dbConnect
+?dbConnect
+dbConnect
+?dbConnect
+install.packages("RMySQL")
+dbConnect
+install.packages("RMySQL")
+data <- dbConnect(MySQL(), user ="gnome")
+install.packages("RMySQL")
+data <- dbConnect(MySQL(), user ="gnome")
+library(RMySQL)
+data <- dbConnect(MySQL(), user ="gnome")
+data
+setwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/Getting_and_Cleaning_Data/Project/UCI HAR Dataset")
+getwd()
+mtcars
+data(mtcars)
+mtcars
+narrow <- mtcars[, c("cyl", "gear", "vs", "mpg")]
+narrow
+library(reshape2)
+?dcast
+wide1 <- tidied <- dcast(narrow, cyl + gear ~ vs, max)
+wide1 <- tidied <- dcast(narrow, cyl + gear ~ vs, max)
+wide1
+wide2 <- tidied <- dcast(narrow, cyl + vs ~ gear, max)
+wide2
+notverywide <- aggregate(mpg ~ gear + vs + cyl, data = narrow, max)
+notverywide
+narrow
+max
+untidy <- with(narrow, tapply(mpg, list(cyl, vs, gear), max))
+untidy
+?with
+library(psych)
+getwd()
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysisu.R")
+source("run_analysis.R")
+library(psych)
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
+getwd()
+getwd()
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
+source("run_analysis.R")
