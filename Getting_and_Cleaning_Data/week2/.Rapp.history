@@ -1,0 +1,268 @@
+source("connect_to_mysql_db.R")
+source("connect_to_mysql_db.R")
+source("http://bioconductor.org/bioclite.R")
+source("http://bioconductor.org/biocLite.R")
+biocLite("rhdf5")
+library(rhdf5)
+source("http://bioconductor.org/biocLite.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+source("hdf5.R")
+library(httr)
+source("web.R")
+source("web.R")
+source("web.R")
+source("web.R")
+library(httr)
+source("web.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+source("api.R")
+acs
+acs <- read.csv("https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv")
+acs <- read.csv("https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv", r)
+acs <- read.csv("https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv", 'r')
+acs <- file.csv("https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv", 'r')
+acs <- read.csv("getdata-data-ss06pid", 'r')
+getwd()
+acs <- read.csv("getdata-data-ss06pid.csv", 'r')
+acs <- read.csv("getdata-data-ss06pid.csv")
+acs
+sqldf("select * from acs where AGEP < 50")
+sqldf("select * from acs where AGEP < 50")
+library(sqldf)
+sqldf("select * from acs where AGEP < 50")
+str(acs)
+acs$pwgtp1
+sqldf("select distinct AGEP from acs")
+order(sqldf("select distinct AGEP from acs"))
+order(sqldf("select distinct AGEP from acs"))
+library(httr)
+con = url("http://biostat.jhsph.edu/~jleek/contact.html")
+htmlCode = readLines(con, 10)
+htmlCode
+htmlCode = readLines(con, 10:10)
+htmlCode
+htmlCode = readLines(con)
+htmlCode
+htmlCode[10]
+htmlCode[10:12]
+htmlCode[1]
+nchar(htmlCode[10])
+nchar(htmlCode[20])
+nchar(htmlCode[30])
+nchar(htmlCode[100])
+read.for(getdata-wksst8110.for)
+read.for("getdata-wksst8110.for")
+read.for("getdata-wksst8110.for")
+read.fwf("getdata-wksst8110.for")
+read.txt("getdata-wksst8110.for")
+read.text("getdata-wksst8110.for")
+read.table("getdata-wksst8110.for")
+read.table("getdata-wksst8110.for")
+read.fwf("getdata-wksst8110.for")
+read.fwf("getdata-wksst8110.for", width = 5)
+read.fwf("getdata-wksst8110.for", width = 100)
+data <- read.fwf("getdata-wksst8110.for", width = 100)
+data
+head(data)
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 3)
+head(data)
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 2)
+head(data)
+class(data)
+head(data)
+str(data)
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 3)
+str(data)
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 4)
+str(data)
+data
+head(data)
+data[1, ]
+data[0, ]
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 4)
+head(data)
+data <- read.fwf("getdata-wksst8110.for", width = 100, skip = 3)
+head(data)
+head(data$week)
+head(data[, 1])
+class(data[, 1])
+class(data)
+head(data)
+head(data[, 1])
+head(data[, 1:1])
+data <- read.fwf("getdata-wksst8110.for", width = 1000, skip = 3)
+head(data[, 1:1])
+head(data)
+head(data[2])
+head(data[2,])
+head(data[1,])
+head(data[,1:2])
+head(data[,1])
+head(data[1,])
+mat <- matrix(data)
+mat
+ata
+data
+data[, 4]
+data[, 2]
+data[, 1]
+data[, 1]
+datac <- read.csv("getdata-wksst8110.csv")
+datac
+class(datac)
+head(datac)
+head(datac$Week)
+data <- read.fwf("getdata-wksst8110.for", width = 1000, skip = 3, row.names, col.names)
+data <- read.fwf("getdata-wksst8110.for", width = 1000, sep= ' ', skip = 3, row.names, col.names)
+data <- read.fwf("getdata-wksst8110.for", width = 1000, sep= ' ', skip = 3, row.names, col.names, n = -1)
+data <- read.fwf("getdata-wksst8110.for", width = 1000)
+data
+data <- read.fwf("getdata-wksst8110.for", width = 1000, row.names)
+data <- read.fwf("getdata-wksst8110.for", width = 1000, skip = 1)
+data <- read.fwf("getdata-wksst8110.for", width = 1000, skip = 4)
+head(data)
+data[1, ]
+data[, 1]
+data[, 2]
+dim(data)
+data <- read.fwf("getdata-wksst8110.for", widths = c(1,2,3,4,5,6,7,8,9), skip = 4)
+data
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths = c(1,2,3,4,5,6,7,8,9), skip = 4, sep='-')
+data <- read.fwf("getdata-wksst8110.for", skip = 4, sep='-')
+data <- read.fwf("getdata-wksst8110.for", width=100 skip = 4, sep='-')
+data <- read.fwf("getdata-wksst8110.for", width=100, skip = 4, sep='-')
+data <- read.fwf("getdata-wksst8110.for", width=100, skip = 4, sep=c('-', ' '))
+data <- read.fwf("getdata-wksst8110.for", width=c(1,2,3,4,5), skip = 4, sep=c('-', ' '))
+data
+head(data)
+data <- read.fwf("getdata-wksst8110.for", width=c(1,2,3,4,5, 6, 7, 8, 9), skip = 4, sep=c('-', ' '))
+data <- read.fwf("getdata-wksst8110.for", width=c(1,2,3,4,5, 6, 7, 8), skip = 4, sep=c('-', ' '))
+data <- read.fwf("getdata-wksst8110.for", width=c(1,2,3,4), skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=c(1,2,3,4,5), skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=1, skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=2, skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=3, skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=10, skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=100, skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", width=20, skip = 4, sep=c('-', ' '))
+?read.fwf
+data <- read.fwf("getdata-wksst8110.for", width=(9,4), skip = 4, sep=c('-', ' '))
+data <- read.fwf("getdata-wksst8110.for", width=c(9,4), skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,4), skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,5), skip = 4, sep=c('-', ' '))
+data
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10), skip = 4, sep=c('-', ' '))
+data
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10, 10), skip = 4, sep=c('-', ' '))
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10, 10), skip = 4, sep=c('-')
+)
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10, 10), skip = 4, sep=c(' ')
+)
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10, 10), skip = 4, sep=c(' '))
+data <- read.fwf("getdata-wksst8110.for", widths=c(9,10), skip = 4, sep=c(' '))
+data
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths=c(10,10), skip = 4, sep=c(' '))
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths=c(10,4), skip = 4, sep=c(' '))
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths=c(10,40), skip = 4, sep=c(' '))
+data <- read.fwf("getdata-wksst8110.for", widths=c(0,10), skip = 4, sep=c(' '))
+head(data)
+data <- read.fwf("getdata-wksst8110.for", widths=c(10,10), skip = 4, sep=c(' '))
+data <- read.fwf("getdata-wksst8110.for", widths=c(10,10), skip = 4, sep=c('-'))
+x <- read.fwf(#
+  file=url("getdata-wksst8110.for"),#
+  skip=4,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x <- read.fwf(#
+  file=url("http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for"),#
+  skip=4,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x
+data(x)
+class(x)
+str(x)
+head(x)
+head(x$V4)
+sum((x$V4))
+sum((x$V4))
+x <- read.fwf(#
+  file=url("http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for"),#
+  skip=3,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x
+head(x)
+head(x$V4)
+x <- read.fwf(#
+  file=url("http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for"),#
+  skip=4,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x <- read.fwf(#
+  "https://d396qusza40orc.cloudfront.net/getdata%2Fwksst8110.forr",#
+  skip=4,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x <- read.fwf(#
+  "getdata-wksst8110.for",#
+  skip=4,#
+  widths=c(12, 7,4, 9,4, 9,4, 9,4))
+x
+head(x)
+head(x$V4)
+sum((x$V4))
