@@ -185,18 +185,44 @@ q
 quit
 exit
 quit(0)
-install.packages("RMySQL")
-dbConnect()
-dbConnect
-?dbConnect
-dbConnect
-?dbConnect
-install.packages("RMySQL")
-dbConnect
-install.packages("RMySQL")
-data <- dbConnect(MySQL(), user ="gnome")
-install.packages("RMySQL")
-data <- dbConnect(MySQL(), user ="gnome")
-library(RMySQL)
-data <- dbConnect(MySQL(), user ="gnome")
-data
+getwd()
+getwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2")
+setwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/ProgrammingAssignment2")
+getwd()
+source("cachematrix.R")
+makeCacheMatrix()
+makecache <- makeCacheMatrix()
+makecache
+matrix1 <- rbind(c(1, -1/4), c(-1/4, 1))
+matrix1
+matrix2 <- rbind(c(1, -1/2), c(-1/2, 1))
+matrix2
+matrix1
+matrix2
+cachematrix
+makecache
+makecache$set(matrix1)
+makecahce$get()
+makecache$get()
+solve <- cacheSolve()
+solve <- cacheSolve(makecache)
+solve
+solve
+solve
+cachemean(makecache)
+cachemean()
+cacheSolve
+cacheSolve(matrix)
+cacheSolve(matrixcache)
+cacheSolve(makecache)
+cacheSolve(makecache)
+cacheSolve(makecache)
+cacheSolve(makecache)
+cacheSolve(makecache)
+makecache$set(matrix2)
+makecache$get()
+cacheSolve(makecache)
+cacheSolve(makecache)
+cacheSolve(makecache)
+makecache$list
+makecache$list()
