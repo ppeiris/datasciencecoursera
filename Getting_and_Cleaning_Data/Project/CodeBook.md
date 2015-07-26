@@ -1,5 +1,8 @@
 # Valiable descriptions
 
+
+### tidyDataSetForStep5.txt contain the final tidy data set
+
 1. SubjectId
   * SubjectId corrospond to the user. SubjectId run from 1 to 30 (there are 30 people participate in this experiment)
 
