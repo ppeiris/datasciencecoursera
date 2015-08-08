@@ -1,0 +1,253 @@
+x
+mtca
+mtcars
+x
+matrix(mtcars)
+data.matrix(mtcars)
+x <- data.matrix(mtcars)
+x
+class(x)
+x$mpg
+x[1,]
+x[, 2]
+x[,2]
+x[,3]
+x$hp
+x[x[,2 == 6]]
+x[x[,2 = 6]]
+x[x[,2] == 6]
+x
+x[x[,2] == 6, ]
+cyl6 <- x[x[,2] == 6, ]
+class(cyl6)
+cyl6
+cyl6[,1]
+cyl6[,4]
+mean(cyl6[,4])
+cyl6mean <- mean(cyl6[,4])
+cyl6mean
+cyl4 <- x[x[,2] == 4]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4
+cyl4 <- x[x[,2] == 4,]
+cyl4[,4]
+cyl4hp <- cyl4[,4]
+cyl4hp
+mean(cyl4hp)
+mean(cyl4hp) - cyl6mean
+debug(ls)
+ls
+ls()
+d
+D
+q
+quit
+exit
+D
+ls
+ls()
+debug(ls)
+ls()
+n
+library(datasets)#
+data(iris)
+n
+library(datasets)#
+data(iris)
+iris
+class(iris)
+head(isir)
+head(iris)
+n
+nn
+n
+q
+quit
+exit
+quit(0)
+install.packages("RMySQL")
+dbConnect()
+dbConnect
+?dbConnect
+dbConnect
+?dbConnect
+install.packages("RMySQL")
+dbConnect
+install.packages("RMySQL")
+data <- dbConnect(MySQL(), user ="gnome")
+install.packages("RMySQL")
+data <- dbConnect(MySQL(), user ="gnome")
+library(RMySQL)
+data <- dbConnect(MySQL(), user ="gnome")
+data
+set.seed(123123)
+set.seed(13435)
+X <- data.frame("var1" = sample(1:5), "var2" = samle (6:10), "var3" = samle(11:15))
+X <- data.frame("var1" = sample(1:5), "var2" = samle (6:10), "var3" = sample(11:15))
+X <- data.frame("var1" = sample(1:5), "var2" = sample(6:10), "var3" = sample(11:15))
+X
+X <- X[samle(1:5), ]; X$var2[c(1,3)] = NA
+X <- X[sample(1:5), ]; X$var2[c(1,3)] = NA
+X
+X[,1]
+X[,"var1"]
+X[1:2,"var1"]
+X[1:2,"var2"]
+mat <- matrix(1:3)
+mat
+mat <- matrix(1:3, 3:2)
+mat
+mat <- matrix(1:3,10,10)
+mat <- matrix(1:100,10,10)
+mat
+mat <- matrix(rand(1),10,10)
+mat <- matrix(1:100,10,10)
+mat
+all(mat)
+all(mat > 0)
+all(mat > 1000)
+all(mat > 100)
+all(mat > 99)
+getwd()
+setwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/Getting_and_Cleaning_Data/week3")
+getwd()
+restData <- read.csv("Restaurant.csv")
+restData <- read.csv("Restaurant.csv", 'r')
+restData <- read.csv("Restaurants.csv", 'r')
+restData <- read.csv("Restaurants.csv")
+restData
+sq <- seq(1,10,by = 2)
+s1 <- seq(1,10,by = 2)
+s1
+s2 <- seq(1,10,by = 3)
+s2
+s2 <- seq(1,10,length = 3)
+s
+s2
+restData
+restData$nearMe = restData$neighborhood %in% c("Roland Park", "Homeland")
+restData$nearMe
+table(restData$nearMe)
+str(restData)
+restData$zipWrong = ifelse(restData$zipCode < 0, TRUE, FALSE)
+table(restData$zipWrong)
+table(restData$zipWrong, restData$zipCode)
+mtcars
+library(reshape2)
+head(mtchars)
+head)mtchars
+head(mtcars)
+mtcars$carnames <- rownames(mtcars)
+mtcars$carnames
+rownames(mtcars)
+carMelt <- melt(mtcars, id = c("carname", "gear", "cyl"), measure.vars = c("mpg", "hp"))
+carMelt <- melt(mtcars, id = c("carname", "gear", "cyl"), measure.vars = c("mpg", "hp"))
+carMelt <- melt(mtcars, id = c("carnames", "gear", "cyl"), measure.vars = c("mpg", "hp"))
+carMelt
+carMelt
+head(carMelt)
+str(carMelt)
+head(mtcars)
+head(meltcar)
+head(carMelt)
+tail(carMelt)
+catMelt
+InsectSpray
+library(dplyer)
+library(dplyr)
+library(dplyr)
+ch <- readRDS("chicago.rds")
+ch
+dim(chi)
+dim(ch)
+str(ch)
+names(ch)
+head(ch)
+head(select(ch, city:dp))
+head(select(ch, city:dp))
+head(select(ch, city:dptp))
+arrange(ch, date)
+ls
+clear
+clear()
+dir
+clear
+sl
+cl
+ch
+summarize
+summarize(data)
+summarize(ch)
+ch
+mutate
+mutate()
+mutate(ch)
+mutate(ch, ch$new)
+dplyr
+fileUrl1 = "https://dl.dropboxusercontent.com/u/7710864/data/reviews-apr29.csv"
+fileUrl2 = "https://dl.dropboxusercontent.com/u/7710864/data/solutions-apr29.csv"
+download.file(fileUrl1,destfile="./data/reviews.csv",method="curl")#
+download.file(fileUrl2,destfile="./data/solutions.csv",method="curl")
+ls
+getwd()
+download.file(fileUrl1,destfile="./data/reviews.csv",method="curl")
+download.file(fileUrl1,destfile="reviews.csv",method="curl")
+download.file(fileUrl2,destfile="solutions.csv",method="curl")
+reviews = read.csv("reviews.csv")
+solutions <- read.csv("solutions.csv")
+head(reviews,2)
+names(reviews)
+names(solutions)
+merge(reviews, solutions, by.x="solution_id", by.y="id", all=TRUE)
+mergeData= merge(reviews, solutions, by.x="solution_id", by.y="id", all=TRUE)
+head(merageData)
+head(mergeData)
+intersect(names(solutions), names(reviews))
+source("Quiz3Q1.R")
+getwd()
+setwd('/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/Getting_and_Cleaning_Data/Quiz3')
+source("Quiz3Q1.R")
+?download.file
+?download.file
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+source("Quiz3Q1.R")
+data <- read.csv("Fss06hid.csv")
+data$ACR
+data[data$ACR == 3, ]
+dim(data)
+more10 = data[data$ACR == 3, ]
+more10
+class(more10)
+dim(more10)
+head(more10)
+more10 = data[data$ACR == 3 && data$AGS == 6, ]
+more10
+class(more10)
+str(more10)
+head(more10)
+X <- read.csv("restaurants.csv")
+getwd()
+setwd("/Users/prabath/Dropbox/RIT_Academics_Prabath/NoiseAndRandomProcesses_Spring2011/Note/datasciencecoursera/Getting_and_Cleaning_Data/week3")
+X <- read.csv("restaurants.csv")
+X
+summary(X)
+str(X)
+xtrabs(name  ~ zipCode)
+xtabs(name  ~ zipCode)
+xtabs(Freq  ~ zipCode)
+object.size(X)
+object.size(X, units ="Mb")
+object.size(X, units ="Mb")
+object.size(X, units ="MB")
+print(object.size(X), units ="MB")
+X
+nm <- X$nh %in% c("Roland Park")
+nm
+nm <- X$nh %in% c("Roland Park")
+nm
