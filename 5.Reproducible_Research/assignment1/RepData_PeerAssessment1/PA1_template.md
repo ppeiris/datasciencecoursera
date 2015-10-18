@@ -1,4 +1,4 @@
-# Reproducible Research: Peer Assessment 1
+# Reproducible Research: Peer Assessment 1 (Prabath Peiris)
 
 ### Loading and preprocessing the data
 
