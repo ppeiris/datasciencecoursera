@@ -1,0 +1,4 @@
+# Assignment 01
+
+dataset <- read.csv('activity.csv', header=TRUE, sep=",", na.strings = "NA", blank.lines.skip = TRUE)
+
