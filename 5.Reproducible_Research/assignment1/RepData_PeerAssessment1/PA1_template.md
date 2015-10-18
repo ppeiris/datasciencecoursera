@@ -2,6 +2,29 @@
 
 ### Loading and preprocessing the data
 
+```r
+library(knitr)
+library(ggplot2)
+library(dplyr)
+```
+
+```
+## 
+## Attaching package: 'dplyr'
+## 
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+## 
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+```r
+library(scales)
+knitr::opts_chunk$set(cache=FALSE)
+```
 
 
 ```r

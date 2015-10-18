@@ -10,7 +10,7 @@ output:
 ---
 
 ### Loading and preprocessing the data
-```{r setup, echo = TRUE, include=FALSE, warning=FALSE, message=FALSE}
+```{r setup, echo = TRUE}
 library(knitr)
 library(ggplot2)
 library(dplyr)
