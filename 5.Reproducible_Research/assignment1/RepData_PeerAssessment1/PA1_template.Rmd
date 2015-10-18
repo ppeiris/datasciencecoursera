@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: "Reproducible Research: Peer Assessment 1 (Prabath Peiris)"
 output:
   html_document:
     pandoc_args: [
@@ -15,7 +15,8 @@ library(knitr)
 library(ggplot2)
 library(dplyr)
 library(scales)
-knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(cache=FALSE)
+
 ```
 
 ```{r}
