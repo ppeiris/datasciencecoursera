@@ -1,0 +1,56 @@
+# Asignment 1 
+
+
+
+##### Calculate mean number of steps taken per day
+
+```{r}
+msteps <- summarise(gdata, mean_steps = mean(steps))
+head(msteps)
+```
+
+##### Plot the mean number of steps take per day
+
+```{r echo=FALSE, results=FALSE}
+msteps$date <- as.Date(msteps$date)
+msteps <- msteps[order(msteps$date), ]
+mplt <- qplot(date, mean_steps, data = msteps)
+mplt <- mplt + labs(x = "Date")
+mplt <- mplt + labs(y = "Mean steps")
+mplt + scale_x_date()
+```
+
+
+
+
+
+
+---
+output: html_document
+---
+My First R Markdown file
+=========================
+
+This is the first file 
+
+This is really cool r time 
+
+```{r}
+library(datasets)
+data("airquality")
+summary(airquality)
+```
+
+# this is the head
+## another 
+### another
+#### another
+##### antoeher
+###### hello
+
+* list
+* antoerh
+
+1. ya
+4. sure
+2. yep
