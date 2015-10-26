@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/121671/63cb3965f6494a5a9e3f153f9254212b
+url: http://rpubs.com/prabath/121671
+when: 1445814151.13269
