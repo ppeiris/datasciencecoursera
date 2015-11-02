@@ -1,0 +1,161 @@
+---
+title: "Reproducible Research: Peer Assessment 1"
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K64m",
+      "-RTS"
+    ]
+    keep_md: true
+---
+
+### Loading and preprocessing the data
+```{r setup, echo = TRUE, include=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+library(ggplot2)
+library(dplyr)
+library(scales)
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+```{r}
+dataset <- read.csv('activity.csv', header=TRUE, sep=",", na.strings = "NA")
+head(dataset)
+```
+
+What is the total number of steps taken per day?
+Remove NA values from the steps variable (column)
+
+```{r}
+rawdata <- dataset
+dataset <- dataset[!is.na(dataset$steps), ]
+dataset <- dataset[!is.na(dataset$date), ]
+head(dataset)
+```
+
+Group the dataset dy date
+
+```{r}
+gdata <- group_by(dataset, date)
+head(gdata)
+```
+
+Summarise the data by date with total number of steps per given day
+
+```{r}
+total_steps <- summarise(gdata, tsteps = sum(steps))
+head(total_steps)
+```
+
+Plot the hisogram for total number of steps
+
+```{r}
+plt <- qplot(tsteps, data = total_steps, geom="histogram")
+plt <- plt + labs(x = "Total Steps Per Day")
+plt
+```
+
+### What is the mean total number of steps taken per day?
+
+```{r}
+mtotal <- sum(total_steps$tsteps)/nrow(total_steps)
+mtotal <- format(mtotal, digits = 2)
+```
+
+Mean total number of steps taken per dat is `r mtotal`
+
+What is the median total number of steps taken per day?
+
+```{r}
+medsteps <- median(total_steps$tsteps)
+medsteps <- format(medsteps, digits = 2)
+```
+
+Median total number of steps taken per dat is `r medsteps`
+
+## What is the average daily activity pattern?
+
+
+Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+Group the data set by interval and calculate the average number of steps per interval
+
+```{r}
+gidata <- group_by(dataset, interval)
+sdata <- summarise(gidata, avesteps = mean(steps))
+plot2 <- qplot(interval, avesteps, type="l", data = sdata)
+plot2 <- plot2 + labs(x = "Interval")
+plot2 <- plot2 + labs(y = "Average Number of Steps Taken")
+maxInterval <- sdata[sdata$avesteps == max(sdata$avesteps),]$interval
+plot2 + geom_vline(xintercept = maxInterval) + geom_hline(yintercept = max(sdata$avesteps))
+```
+
+Maximum number of average steps take at interval `r maxInterval`
+
+
+```{r}
+comp <- complete.cases(rawdata)
+countnotcompelte <- length(comp[comp == FALSE])
+```
+
+
+Total number of rows that is not complete is `r countnotcompelte`
+
+## Imputing missing values
+
+Filling all the NA values with zero
+```{r}
+fillNAdata <-rawdata
+fillNAdata[which(is.na(fillNAdata$steps)), ]$steps <- 0
+
+gfillNAdata <- group_by(fillNAdata, date)
+total_gfillNAdata <- summarise(gfillNAdata, tsteps = sum(steps))
+plt3 <- qplot(tsteps, data = total_gfillNAdata, geom="histogram")
+plt3 <- plt3 + labs(x = "Total Steps Per Day")
+plt3
+```
+
+```{r}
+mNAtotal <- sum(total_gfillNAdata$tsteps)/nrow(total_gfillNAdata)
+mNAtotal <- format(mNAtotal, digits = 2)
+
+```
+Mean total number of steps taken per dat is `r mNAtotal`
+
+```{r}
+meNAdsteps <- median(total_gfillNAdata$tsteps)
+meNAdsteps <- format(meNAdsteps, digits = 2)
+```
+
+Median total number of steps taken per dat is `r meNAdsteps`
+
+By altering the NA values in the data set, the median and mean value has changed
+
+## Are there differences in activity patterns between weekdays and weekends?
+
+Are there differences in activity patterns between weekdays and weekends?
+
+```{r}
+fillNAdata$date <- as.Date(fillNAdata$date)
+weekdays1 <- c('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
+fillNAdata$day <- factor((weekdays(fillNAdata$date) %in% weekdays1), levels=c(FALSE, TRUE), labels=c('weekend', 'weekday'))
+weekendData <- fillNAdata[fillNAdata$day == "weekend", ]
+weekdataData <- fillNAdata[fillNAdata$day == "weekday", ]
+gweekendData <- group_by(weekendData, interval)
+sgweekendData <- summarise(gweekendData, avesteps = mean(steps))
+gweekdataData <- group_by(weekdataData, interval)
+sgweekdataData <- summarise(gweekdataData, avesteps = mean(steps))
+```
+
+Weekend Data
+```{r}
+plt4 <- qplot(interval, avesteps, type="l", data = sgweekendData, geom="line")
+plt4 <- plt4 + labs(x = "Weekend Intervals") + labs(y = "Average Seps")
+plt4
+```
+
+Weekday Data
+```{r}
+plt5 <- qplot(interval, avesteps, type="l", data = sgweekdataData, geom="line")
+plt5 <- plt5 + labs(x = "Weekday Intervals") + labs(y = "Average Steps")
+plt5
+```
